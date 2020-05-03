@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM arm32v5/php:5.6-apache
 
 RUN apt-get -y update && apt-get upgrade -y
 
